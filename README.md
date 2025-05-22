@@ -5,22 +5,22 @@ A full-featured blogging platform built with the MERN stack (MongoDB, Express.js
 ## Screenshots
 
 ### Register Page
-![Register Page](Screenshots./Register.png)
+![Register Page](Screenshots_/Register.png)
 
 ### Login Page
-![Login Page](Screenshots./LoginPage.png)
+![Login Page](Screenshots_/LoginPage.png)
 
 ### Home Page
-![HomePage](Screenshots./Home.png)
+![HomePage](Screenshots_/Home.png)
 
 ### Create Page
-![Create Post](Screenshots./CreatePost.png)
+![Create Post](Screenshots_/CreatePost.png)
 
 ### Edit Delete
-![Edit](Screenshots./editdelete.png)
+![Edit](Screenshots_/editdelete.png)
 
 ### Comments
-![comments](Screenshots./Comments.png)
+![comments](Screenshots_/Comments.png)
 
 
 
