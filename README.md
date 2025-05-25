@@ -56,18 +56,16 @@ mern-blog/
 │   │   ├── index.html
 │   │   └── manifest.json
 │   ├── src/
-│   │   ├── components/       # (If any, e.g., Header.js, Post.js)
 │   │   ├── pages/            # Page components (Login, Register, PostPage, etc.)
 │   │   ├── App.js            # Main React application
 │   │   ├── App.css           # Styles
 │   │   └── ...
-│   └── package.json          # Frontend dependencies
+│   └── ...         # Frontend dependencies
 │
 ├── api/                      # Backend Node.js/Express application
 │   ├── index.js              # Main server file
 │   ├── models/               # Mongoose models (User.js, Post.js)
 │   └── ...
-├── mern-blog/                # (Project root, may contain package.json)
 ├── README.md                 # Project documentation
 └── .gitignore                # Git ignore file
 ```
@@ -97,8 +95,8 @@ mern-blog/
 1. **Clone the repository**
 
 ```sh
-git clone https://github.com/pranjalpatil-23/Blogging-Website.git
-cd Blogging-Website
+git clone https://github.com/pranjalpatil-23/BloggingProject.git
+cd BloggingProject
 ```
 
 1. **Install backend dependencies**
