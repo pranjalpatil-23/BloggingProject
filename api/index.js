@@ -1,5 +1,4 @@
-// index.js
-require('dotenv').config();          // 1) load env vars right away
+require('dotenv').config();         
 
 const express    = require('express');
 const cors       = require('cors');
