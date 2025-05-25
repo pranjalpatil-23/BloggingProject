@@ -22,12 +22,6 @@ A full-featured blogging platform built with the MERN stack (MongoDB, Express.js
 ### Comments
 ![comments](Screenshots_/Comments.png)
 
-
-
-
-
-
-
 ---
 
 ## Features
@@ -70,7 +64,7 @@ mern-blog/
 └── .gitignore                # Git ignore file
 ```
 
-## API Endpoints (Sample)
+## API Endpoints
 
 | Method | Endpoint           | Description                  |
 |--------|--------------------|------------------------------|
