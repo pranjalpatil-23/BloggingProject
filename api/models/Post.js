@@ -9,7 +9,7 @@ const PostSchema = new Schema({
   author:{type:Schema.Types.ObjectId, ref:'User'},
   reactions: {
     type: Map,
-    of: [String], // Array of user IDs for each reaction type
+    of: [String], 
     default: {},
   },
   comments: [
