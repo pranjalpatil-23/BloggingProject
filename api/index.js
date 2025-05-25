@@ -227,14 +227,14 @@ app.delete('/post/:id', async (req, res) => {
 // Add or remove a reaction (only one per user per post)
 app.post('/post/:id/react', async (req, res) => {
   const { token } = req.cookies;
-  const { reaction } = req.body; // e.g. 'like', 'love'
+  const { reaction } = req.body; 
   jwt.verify(token, secret, {}, async (err, info) => {
     if (err) return res.status(401).json('Unauthorized');
     const postDoc = await Post.findById(req.params.id);
     if (!postDoc) return res.status(404).json('Post not found');
     const userId = info.id;
 
-    // Remove user from all reactions
+   
     for (let [key, arr] of postDoc.reactions.entries()) {
       postDoc.reactions.set(key, arr.filter(id => id !== userId));
     }
@@ -245,7 +245,7 @@ app.post('/post/:id/react', async (req, res) => {
       arr.push(userId);
       postDoc.reactions.set(reaction, arr);
     } else {
-      // Already removed above, so do nothing (user unreacted)
+      
     }
 
     await postDoc.save();
