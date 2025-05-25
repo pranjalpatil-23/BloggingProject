@@ -71,7 +71,6 @@ header .logo, header a.logo {
     cursor: pointer;
     position: relative;
     padding-bottom: 8px;
-    /* Add space for the underline */
 }
 header .logo::after, header a.logo::after {
     content: "";
@@ -394,10 +393,10 @@ div.content .ql-container {
 .reaction-btn {
     background: #f1f5f9;
     border: 1px solid #e5e7eb;
-    border-radius: 6px; /* Less round for box shape */
-    padding: 4px;       /* Minimal padding */
-    width: 60px;        /* Fixed width */
-    height: 32px;       /* Fixed height */
+    border-radius: 6px;
+    padding: 4px;       
+    width: 60px;        
+    height: 32px;       
     font-size: 16px;
     cursor: pointer;
     transition: background 0.2s, border 0.2s;
