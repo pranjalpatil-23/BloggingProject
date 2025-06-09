@@ -195,7 +195,5 @@ Open your browser and navigate to `http://localhost:3000`
 - `comments`: Array
 - `reactions`: Object
 
----
 
-Feel free to contribute or open issues!
 
